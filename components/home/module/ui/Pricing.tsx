@@ -13,7 +13,7 @@ const Pricing = () => {
     {
       name: 'Essential Portfolio',
       description: 'Perfect for individual investors starting their wealth building journey',
-      monthlyPrice: 299,
+      monthlyPrice:299,
       annualPrice: 2990,
       minimumInvestment: '50K',
       popular: false,
@@ -50,7 +50,7 @@ const Pricing = () => {
         'Quarterly strategy calls'
       ],
       icon: TrendingUp,
-      color: 'emerald'
+      color: 'blue'
     },
     {
       name: 'Elite Private',
@@ -74,7 +74,7 @@ const Pricing = () => {
         'Annual wealth review'
       ],
       icon: Shield,
-      color: 'purple'
+      color: 'blue'
     }
   ];
 
@@ -181,8 +181,9 @@ const Pricing = () => {
 
                   <div className="space-y-2">
                     <div className="flex items-baseline justify-center">
-                      <span className="text-4xl lg:text-5xl font-bold text-slate-900">
-                        ${getPrice(plan).toLocaleString()}
+                      <span className="text-4xl  font-bold text-slate-900">
+                        {/* ${getPrice(plan).toLocaleString()} */}
+                        Comming Soon
                       </span>
                       <span className="text-slate-500 ml-2">
                         /{billingCycle === 'monthly' ? 'month' : 'year'}
@@ -221,11 +222,7 @@ const Pricing = () => {
                   >
                     <Button
                       size="lg"
-                      className={`w-full font-semibold transition-all duration-200 ${
-                        plan.popular
-                          ? 'bg-emerald-600 hover:bg-emerald-700 text-white shadow-lg hover:shadow-xl'
-                          : 'bg-slate-900 hover:bg-slate-800 text-white'
-                      }`}
+                      className={`w-full font-semibold transition-all duration-200 bg-blue-600 hover:bg-blue-700 `}
                     >
                       Get Started
                       <ArrowRight className="ml-2 w-5 h-5" />

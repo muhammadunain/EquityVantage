@@ -65,7 +65,7 @@ const Testimonials = () => {
   }, []);
 
   return (
-    <section id="testimonials" className="py-20  bg-gradient-to-br from-slate-900 to-blue-900 relative overflow-hidden">
+    <section id="testimonials" className="py-20  bg-gradient-to-br from-slate-900 to-slate-900 relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 bg-grid-white/[0.02] bg-[size:50px_50px]" />
       

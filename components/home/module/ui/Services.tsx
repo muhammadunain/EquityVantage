@@ -135,7 +135,7 @@ const Services = () => {
           viewport={{ once: true }}
           className="text-center mt-16 lg:mt-20"
         >
-          <div className="bg-gradient-to-r from-blue-700 to-blue-900 rounded-3xl p-8 lg:p-12 text-white">
+          <div className="bg-gradient-to-r from-slate-700 to-slate-900 rounded-3xl p-8 lg:p-12 text-white">
             <h3 className="text-2xl lg:text-3xl font-bold mb-4">
               Ready to Optimize Your Investment Strategy?
             </h3>
@@ -146,7 +146,7 @@ const Services = () => {
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="bg-white text-blue-700 px-8 py-4 rounded-xl font-semibold text-lg hover:bg-blue-50 transition-colors duration-200 shadow-lg"
+              className="bg-blue-600 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-blue-700 transition-colors duration-200 shadow-lg"
             >
               Schedule Consultation
             </motion.button>

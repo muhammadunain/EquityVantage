@@ -33,7 +33,7 @@ const Header = () => {
       transition={{ duration: 0.6, ease: 'easeOut' }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
-          ? 'bg-white/95 backdrop-blur-md shadow-lg '
+          ? 'bg-black/95 backdrop-blur-md shadow-lg '
           : 'bg-transparent'
       }`}
     >
@@ -49,7 +49,7 @@ const Header = () => {
               <TrendingUp className="w-6 h-6 text-white" />
             </motion.div>
             <span className={`text-xl lg:text-2xl font-bold ${
-              isScrolled ? 'text-slate-900' : 'text-white'
+              isScrolled ? 'text-white/90' : 'text-white'
             } group-hover:text-blue-700 transition-colors`}>
               Equity Vantage
             </span>
@@ -62,7 +62,7 @@ const Header = () => {
                 key={item.href}
                 href={item.href}
                 className={`text-sm lg:text-base font-medium transition-colors hover:text-blue-700 ${
-                  isScrolled ? 'text-slate-700' : 'text-white/90'
+                  isScrolled ? 'text-white/90' : 'text-white/90'
                 }`}
               >
                 {item.label}
