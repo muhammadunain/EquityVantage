@@ -183,7 +183,7 @@ const Pricing = () => {
                     <div className="flex items-baseline justify-center">
                       <span className="text-4xl  font-bold text-slate-900">
                         {/* ${getPrice(plan).toLocaleString()} */}
-                        Comming Soon
+                        Coming Soon
                       </span>
                       <span className="text-slate-500 ml-2">
                         /{billingCycle === 'monthly' ? 'month' : 'year'}
