@@ -222,7 +222,7 @@ const Pricing = () => {
                   >
                     <Button
                       size="lg"
-                      className={`w-full font-semibold transition-all duration-200 bg-blue-600 hover:bg-blue-700 `}
+                      className={`w-full font-semibold transition-all duration-200 cursor-pointer bg-blue-600 hover:bg-blue-700 `}
                     >
                       Get Started
                       <ArrowRight className="ml-2 w-5 h-5" />

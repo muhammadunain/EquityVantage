@@ -271,7 +271,7 @@ const Contact = () => {
                         <Button
                           type="submit"
                           size="lg"
-                          className="w-full bg-blue-700 hover:bg-blue-800 text-white h-14 text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-200"
+                          className="w-full bg-blue-700 cursor-pointer hover:bg-blue-800 text-white h-14 text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-200"
                         >
                           Send Message
                           <Send className="ml-2 w-5 h-5" />
@@ -297,7 +297,7 @@ const Contact = () => {
                     <Button
                       onClick={() => setIsSubmitted(false)}
                       variant="outline"
-                      className="border-blue-200 text-blue-700 hover:bg-blue-50"
+                      className="border-blue-200  text-blue-700 hover:bg-blue-50"
                     >
                       Send Another Message
                     </Button>

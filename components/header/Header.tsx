@@ -69,7 +69,7 @@ const Header = () => {
               </Link>
             ))}
             <Button 
-              className="bg-blue-700 hover:bg-blue-800 text-white px-6 py-2 rounded-lg font-medium transition-all duration-200 shadow-lg hover:shadow-xl"
+              className="bg-blue-700 hover:bg-blue-800 cursor-pointer text-white px-6 py-2 rounded-lg font-medium transition-all duration-200 shadow-lg hover:shadow-xl"
             >
               Get Started
             </Button>

@@ -143,7 +143,7 @@ const Testimonials = () => {
                 variant="outline"
                 size="sm"
                 onClick={prevTestimonial}
-                className="w-12 h-12 rounded-full border-white/30  hover:text-slate-900 transition-all duration-200"
+                className="w-12 h-12 rounded-full cursor-pointer border-white/30  hover:text-slate-900 transition-all duration-200"
               >
                 <ChevronLeft className="w-5 h-5" />
               </Button>
@@ -151,7 +151,7 @@ const Testimonials = () => {
                 variant="outline"
                 size="sm"
                 onClick={nextTestimonial}
-                className="w-12 h-12 rounded-full border-white/30  hover:text-slate-900 transition-all duration-200"
+                className="w-12 h-12 rounded-full cursor-pointer border-white/30  hover:text-slate-900 transition-all duration-200"
               >
                 <ChevronRight className="w-5 h-5" />
               </Button>
